@@ -7,6 +7,7 @@ def display_board(board)
 end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+puts "Turn 1: Where would you like to go? 0-8"
 display_board(board)
 input_to_index = gets.strip
 move = "X"
