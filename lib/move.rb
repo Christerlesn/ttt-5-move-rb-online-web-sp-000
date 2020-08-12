@@ -8,4 +8,4 @@ end
 
 input_to_index = gets.strip
 move = "O"
-board[input_to_index.to_i] = move
+display_board[input_to_index.to_i] = move
