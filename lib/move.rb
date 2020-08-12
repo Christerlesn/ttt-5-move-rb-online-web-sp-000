@@ -7,4 +7,3 @@ def display_board(board)
 end
 
 input_to_index = "1"- "9"
-
