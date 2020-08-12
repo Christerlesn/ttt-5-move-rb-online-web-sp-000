@@ -9,4 +9,4 @@ end
 # code your input_to_index and move method here!
 input_to_index = gets.strip
 move = "X"
-board[input_to_index] = move
+display_board[input_to_index] = move
