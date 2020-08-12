@@ -6,6 +6,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-input_to_index = gets.strip
-move = "O"
-display_board[input_to_index.to_i] = move
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+input_to_index(user_input)
